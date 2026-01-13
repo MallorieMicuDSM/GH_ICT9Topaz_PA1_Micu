@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+<style>
+    /* img {
+        width: 400px;
+        height: 400px;
+    } */
+    body {
+    display: inline-block;        
+        /* justify-content: center;
+        align-items:center; */
+        background-image: url('pastel galaxy - Copy.jpg');
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-size: cover;
+        text-align: center;
+    }
+    img {
+        width: 500px;
+        height: 300px;
+    }
+</style>
+</head>
+<body>
+    <h1>History of Javascript</h1>
+     <div id="output" style="font-size: 50px;"></div>
+
+ <script>
+     document.getElementById('output').innerHTML ='JavaScript was invented by Brendan Eich at around 1995, it was first named Mocha, then changed to LiveScript, and is now known as JavaScript';
+
+     
+        var img = document.createElement("img");
+        img.src = "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg";
+        document.body.appendChild(img);
+ </script>   
+
+
+    
+</body>
+</html>
